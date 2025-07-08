@@ -1,17 +1,33 @@
-# Logistic-Regression-Model
-Logistic Regression model to predict Airbnb superhosts using feature selection, hyperparameter tuning, and model evaluation techniques.
-This project uses logistic regression to predict whether an Airbnb host is a superhost based on preprocessed Airbnb listing data. The model selection process includes:
+# Logistic Regression Model – Airbnb Superhost Classification
 
-Feature-target setup and dataset splitting
+This project uses logistic regression to predict whether an Airbnb host is a superhost using preprocessed listing data. The process includes model training, evaluation, feature selection, and persistence.
 
-Training and evaluating a baseline logistic regression model
+## Dataset
+- `data_LR/airbnbData_train.csv`: Preprocessed dataset with one-hot encoding, scaling, and imputed values.
 
-Hyperparameter tuning using GridSearchCV
+## Techniques Used
+- Logistic Regression (scikit-learn)
+- GridSearchCV for hyperparameter tuning
+- Confusion matrix, ROC curve, AUC, and precision-recall curve evaluation
+- Feature selection using SelectKBest
+- Model persistence using `pickle`
 
-Comparing model performance using ROC, AUC, and precision-recall curves
+## Model Goals
+- Classify hosts as superhosts (`True` or `False`)
+- Evaluate default vs tuned logistic regression models
+- Analyze feature importance and compare AUC scores
 
-Selecting top features with SelectKBest
+## Files
+- `ModelSelectionForLogisticRegression.ipynb`: The full notebook
+- `model_best.pkl`: Pickled best model
+- `data_LR/airbnbData_train.csv`: Cleaned Airbnb dataset
 
-Saving and reloading the best-performing model using pickle
+## Libraries
+- Python 3
+- pandas, numpy
+- scikit-learn
+- matplotlib, seaborn
 
-Tools used: Python, scikit-learn, seaborn, pandas, matplotlib
+---
+
+> Developed as part of a machine learning lab exercise.
