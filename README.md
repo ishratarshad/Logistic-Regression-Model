@@ -5,7 +5,7 @@ This project uses logistic regression to predict whether an Airbnb host is a sup
 ## Dataset
 - `data_LR/airbnbData_train.csv`: Preprocessed dataset with one-hot encoding, scaling, and imputed values.
 
-## Techniques Used
+## Techniques Used:
 - Logistic Regression (scikit-learn)
 - GridSearchCV for hyperparameter tuning
 - Confusion matrix, ROC curve, AUC, and precision-recall curve evaluation
