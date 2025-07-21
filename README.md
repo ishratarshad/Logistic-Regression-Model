@@ -17,7 +17,7 @@ This project uses logistic regression to predict whether an Airbnb host is a sup
 - Evaluate default vs tuned logistic regression models
 - Analyze feature importance and compare AUC scores
 
-## Files
+## Files used:
 - `ModelSelectionForLogisticRegression.ipynb`: The full notebook
 - `model_best.pkl`: Pickled best model
 - `data_LR/airbnbData_train.csv`: Cleaned Airbnb dataset
@@ -30,4 +30,4 @@ This project uses logistic regression to predict whether an Airbnb host is a sup
 
 ---
 
-> Developed as part of a machine learning lab exercise.
+> Developed as part of a machine learning lab exercise!
